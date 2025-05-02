@@ -16,11 +16,11 @@ The dataset contains 5 primary tables:
 
 | Table Name         | Description                                                  |
 |--------------------|--------------------------------------------------------------|
-| `customers`        | Unique customer records with city, state, and zip code       |
-| `orders`           | Master table containing order status, timestamps, and channel |
-| `order_items`      | Order-level product details and seller info                 |
-| `order_payments`   | Payment method and value per order                           |
-| `order_reviews`    | Customer feedback, rating, and review comments               |
+| `Customers`        | Unique customer records with city, state, and zip code       |
+| `Orders`           | Master table containing order status, timestamps, and channel |
+| `Order_items`      | Order-level product details and seller info                 |
+| `Payments`   | Payment method and others information                          |
+| `Products`    | Information about products               |
 
 **Data Dictionary Preview**
 | **Field Name**         | **Data Type** | **Description**                                                                 |
@@ -50,27 +50,40 @@ The primary objectives of this project are:
 
 ---
 ## 5. Data Processing & Exploratory Data Analysis (EDA)
-### 5.1 Analyze **delivery performance** (on-time vs late delivery)
-**Query 01**:  
+**Query 01**:  What is the average delivery days of orders, and the proportion of each order status?
 - SQL code:
 ![image](https://github.com/user-attachments/assets/90b9649f-d95d-4f25-b38a-4d1926c4c9bd)
-
 - Results: 
 ![image](https://github.com/user-attachments/assets/db0baead-0c51-42dd-b330-5dd9897a0a79)
+- SQL code:
+![image](https://github.com/user-attachments/assets/99c7fbbe-443a-452c-900f-4c1dc61ebb59)
+- Results:  
+![image](https://github.com/user-attachments/assets/412c7b41-7aa6-4141-8af4-602f95e5bf65)
 
-### 5.2 Understand payment behaviors and their link to customer satisfaction
+**Query 02**:  Is there a large difference in delivery success rates between states?
 - SQL code:
-- Results: 
-### 5.3 Identify high-performing sellers and products
-- SQL code:
-- Results: 
-### 5.4 Detect pain points in the customer journey using reviews and delivery timelines
-- SQL code:
-- Results: 
-### 5.5 Segment customer behavior by repeat purchase and review history
-- SQL code:
+![image](https://github.com/user-attachments/assets/a7c6386e-a094-4384-8b32-80e3e178d3e8)
+
 - Results:
----
+![image](https://github.com/user-attachments/assets/54069ba5-8fd4-4ca4-9b27-170bd14b1c31)
+
+**Query 03**: Observe over time, are there any unusual incidents in the successful delivery rate?
+- SQL code:
+![image](https://github.com/user-attachments/assets/604f9e1b-f456-4848-85d8-6e611f62b20e)
+
+- Results:
+![image](https://github.com/user-attachments/assets/2d8dc641-07b0-4eb1-82b7-4ca7f789104c)
+
+**Query 04**: Top 3 best seller_id each state ? 
+- SQL code:
+![image](https://github.com/user-attachments/assets/55229159-3482-4ffc-ad41-2a34a424aa12)
+- Results:
+![image](https://github.com/user-attachments/assets/6ee56144-fcdd-446c-9b0b-473b600fb272)
+
+**Query 05**:  Find underperforming but high-margin products that may benefit from promotion or visibility.
+- SQL code:
+- Results: 
+
 ## 6. Key Insights
 ---
 ## 7. Recommendations
