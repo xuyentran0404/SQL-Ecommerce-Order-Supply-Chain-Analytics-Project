@@ -1,6 +1,6 @@
 # SQL-Ecommerce-Order-Supply-Chain-Analytics-Project
 ## 1. Introduction & Motivation
-In the fast-paced world of e-commerce, understanding customer behavior, optimizing supply chain processes, and improving delivery performance are crucial for business success. This project explores the E-Commerce Order and Supply Chain Dataset to uncover trends, inefficiencies, and business opportunities hidden in transactional and logistics data. The motivation behind this project is to simulate real-world analytics tasks using relational data and draw insights that can support operational and strategic decision-making in e-commerce businesses.  
+In the fast-paced world of e-commerce, understanding customer behavior, optimizing supply chain processes, and improving delivery performance are crucial for business success. This project explores the E-Commerce Order and Supply Chain Dataset to uncover trends, inefficiencies, and business opportunities hidden in transactional and logistics data. This project aims to simulate real-world analytics tasks using relational data and draw insights that can support operational and strategic decision-making in e-commerce businesses.  
 
 ---
 
@@ -53,9 +53,27 @@ The primary objectives of this project are:
 ### 5.1 Analyze **delivery performance** (on-time vs late delivery)
 **Query 01**:  
 - SQL code:
+![image](https://github.com/user-attachments/assets/90b9649f-d95d-4f25-b38a-4d1926c4c9bd)
 
+- Results: 
+![image](https://github.com/user-attachments/assets/db0baead-0c51-42dd-b330-5dd9897a0a79)
+
+### 5.2 Understand payment behaviors and their link to customer satisfaction
+- SQL code:
+- Results: 
+### 5.3 Identify high-performing sellers and products
+- SQL code:
+- Results: 
+### 5.4 Detect pain points in the customer journey using reviews and delivery timelines
+- SQL code:
+- Results: 
+### 5.5 Segment customer behavior by repeat purchase and review history
+- SQL code:
 - Results:
-
-
+---
+## 6. Key Insights
+---
+## 7. Recommendations
+---
 
 
